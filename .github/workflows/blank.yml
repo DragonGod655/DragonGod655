@@ -19,7 +19,7 @@ jobs:
           experimental_features: --optimize-svg
           config_timezone: Asia/Bangkok
           output_action: commit
-          committer_branch: metrics-renders
+          committer_branch: main
           committer_message: "chore: update metrics"
           retries: 3
           retries_delay: 300
