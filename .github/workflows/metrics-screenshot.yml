@@ -15,7 +15,7 @@ jobs:
             token: NOT_NEEDED
             base: ""
             plugin_screenshot: yes
-            plugin_screenshot_title: XKCD of the day
+            plugin_screenshot_title: Random of the day
             plugin_screenshot_url: https://kieutantai.github.io
             plugin_screenshot_selector: "#about"
             optimize: svg
