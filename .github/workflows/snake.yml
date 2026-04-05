@@ -2,8 +2,8 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 */12 * * *"  # Chạy mỗi 12 giờ
-  workflow_dispatch:  # Cho phép chạy thủ công
+    - cron: "0 0 * * *"  # Runs daily at midnight UTC
+  workflow_dispatch:       # Allow manual trigger
 
 jobs:
   generate:
@@ -11,16 +11,16 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - name: Generate Snake Animation
+      - name: Generate Snake Game from GitHub Contributions
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: DragonGod655
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+      - name: Push Snake SVG to output branch
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist

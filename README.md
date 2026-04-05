@@ -15,6 +15,20 @@
 
 ---
 
+## 🐍 Contribution Journey
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DragonGod655/DragonGod655/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DragonGod655/DragonGod655/output/github-contribution-grid-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/DragonGod655/DragonGod655/output/github-contribution-grid-snake.svg" />
+</picture>
+
+</div>
+
+---
+
 ## 🧑‍💻 About Me
 
 ```python
@@ -128,20 +142,6 @@ me.say_hi()
 
 > 🐉 **I love 3D characters SO much.**
 > Whether in games, anime, or art — if it's in 3D, I'm instantly obsessed. That's why the name **DragonGod** exists. 😏
-
-</div>
-
----
-
-## 🐍 Contribution Snake
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DragonGod655/DragonGod655/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DragonGod655/DragonGod655/output/github-contribution-grid-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/DragonGod655/DragonGod655/output/github-contribution-grid-snake.svg" />
-</picture>
 
 </div>
 
