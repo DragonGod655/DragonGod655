@@ -1,0 +1,364 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="400" height="200">
+  <defs>
+    <style>
+      /* Background */
+      .bg { fill: #1a1a2e; }
+      .ground { fill: #3d2b1f; }
+      .grass-top { fill: #4a7c3f; }
+
+      /* Character colors - frachlitz skin */
+      .skin { fill: #c8a882; }
+      .hair { fill: #5c3a1e; }
+      .eye { fill: #00bcd4; }
+      .jacket { fill: #1a1a1a; }
+      .cyan-accent { fill: #00e5ff; }
+      .shirt { fill: #f0f0f0; }
+      .pants { fill: #111111; }
+      .headphone { fill: #222222; }
+      .headphone-logo { fill: #00e5ff; }
+
+      /* Pickaxe */
+      .pick-handle { fill: #8B6914; }
+      .pick-head { fill: #7ec8e3; }
+
+      /* Block - Grass/Dirt */
+      .block-dirt { fill: #8B6A3E; }
+      .block-grass { fill: #5D9B3A; }
+      .block-stone { fill: #888888; }
+      .block-dark { fill: #7a5c32; }
+
+      /* Crack */
+      .crack { fill: none; stroke: #222; stroke-width: 0.8; opacity: 0; }
+
+      /* Particles */
+      .particle { opacity: 0; }
+      .p-dirt { fill: #8B6A3E; }
+      .p-grass { fill: #5D9B3A; }
+      .p-stone { fill: #aaa; }
+
+      /* Stars/sparkle in background */
+      .star { fill: #ffffff; opacity: 0.3; }
+
+      /* === ANIMATIONS === */
+
+      /* Arm swing for mining */
+      @keyframes swing {
+        0%, 100% { transform: rotate(0deg); }
+        15% { transform: rotate(-55deg); }
+        30% { transform: rotate(0deg); }
+        45% { transform: rotate(-55deg); }
+        60% { transform: rotate(0deg); }
+        75% { transform: rotate(-55deg); }
+        90% { transform: rotate(0deg); }
+      }
+      .arm-group {
+        transform-origin: 148px 108px;
+        animation: swing 3s ease-in-out infinite;
+      }
+
+      /* Body bob */
+      @keyframes bob {
+        0%, 100% { transform: translateY(0); }
+        15% { transform: translateY(-2px); }
+        30% { transform: translateY(0); }
+        45% { transform: translateY(-2px); }
+        60% { transform: translateY(0); }
+        75% { transform: translateY(-2px); }
+        90% { transform: translateY(0); }
+      }
+      .character {
+        animation: bob 3s ease-in-out infinite;
+      }
+
+      /* Block shake on hit */
+      @keyframes blockShake {
+        0%, 100% { transform: translate(0, 0); }
+        14% { transform: translate(2px, 0); }
+        16% { transform: translate(-2px, 0); }
+        18% { transform: translate(0, 0); }
+        44% { transform: translate(2px, 0); }
+        46% { transform: translate(-2px, 0); }
+        48% { transform: translate(0, 0); }
+        74% { transform: translate(2px, -1px); }
+        76% { transform: translate(-2px, 0); }
+        78% { transform: translate(0, 0); }
+      }
+      .block-group {
+        animation: blockShake 3s ease-in-out infinite;
+      }
+
+      /* Crack progression */
+      @keyframes crack1 {
+        0%, 10% { opacity: 0; }
+        20%, 100% { opacity: 0.7; }
+      }
+      @keyframes crack2 {
+        0%, 40% { opacity: 0; }
+        50%, 100% { opacity: 0.7; }
+      }
+      @keyframes crack3 {
+        0%, 70% { opacity: 0; }
+        80%, 90% { opacity: 0.9; }
+        95%, 100% { opacity: 0; }
+      }
+      .crack1 { animation: crack1 3s ease infinite; }
+      .crack2 { animation: crack2 3s ease infinite; }
+      .crack3 { animation: crack3 3s ease infinite; }
+
+      /* Block break and respawn */
+      @keyframes blockBreak {
+        0%, 88% { opacity: 1; transform: scale(1); }
+        92% { opacity: 0; transform: scale(0.8); }
+        97% { opacity: 0; transform: scale(0.5); }
+        100% { opacity: 1; transform: scale(1); }
+      }
+      .block-group {
+        transform-origin: 275px 145px;
+        animation: blockShake 3s ease-in-out infinite, blockBreak 3s ease infinite;
+      }
+
+      /* Particles fly out on break */
+      @keyframes particleFly1 {
+        0%, 88% { opacity: 0; transform: translate(0,0) scale(1); }
+        90% { opacity: 1; transform: translate(-15px, -20px) scale(1); }
+        100% { opacity: 0; transform: translate(-25px, -35px) scale(0.3); }
+      }
+      @keyframes particleFly2 {
+        0%, 88% { opacity: 0; transform: translate(0,0) scale(1); }
+        90% { opacity: 1; transform: translate(10px, -25px) scale(1); }
+        100% { opacity: 0; transform: translate(20px, -40px) scale(0.3); }
+      }
+      @keyframes particleFly3 {
+        0%, 88% { opacity: 0; transform: translate(0,0) scale(1); }
+        90% { opacity: 1; transform: translate(18px, -10px) scale(1); }
+        100% { opacity: 0; transform: translate(30px, -20px) scale(0.3); }
+      }
+      @keyframes particleFly4 {
+        0%, 88% { opacity: 0; transform: translate(0,0) scale(1); }
+        91% { opacity: 1; transform: translate(-8px, -28px) scale(1); }
+        100% { opacity: 0; transform: translate(-18px, -45px) scale(0.2); }
+      }
+      @keyframes particleFly5 {
+        0%, 88% { opacity: 0; transform: translate(0,0) scale(1); }
+        90% { opacity: 1; transform: translate(5px, 8px) scale(1); }
+        100% { opacity: 0; transform: translate(12px, 18px) scale(0.2); }
+      }
+      @keyframes particleFly6 {
+        0%, 88% { opacity: 0; transform: translate(0,0) scale(1); }
+        91% { opacity: 1; transform: translate(-12px, 5px) scale(1); }
+        100% { opacity: 0; transform: translate(-22px, 12px) scale(0.2); }
+      }
+      .p1 { animation: particleFly1 3s ease infinite; }
+      .p2 { animation: particleFly2 3s ease infinite; }
+      .p3 { animation: particleFly3 3s ease infinite; }
+      .p4 { animation: particleFly4 3s ease infinite; }
+      .p5 { animation: particleFly5 3s ease infinite; }
+      .p6 { animation: particleFly6 3s ease infinite; }
+
+      /* Hit spark */
+      @keyframes spark {
+        0%, 12% { opacity: 0; }
+        15% { opacity: 1; }
+        20% { opacity: 0; }
+        42% { opacity: 0; }
+        45% { opacity: 1; }
+        50% { opacity: 0; }
+        72% { opacity: 0; }
+        75% { opacity: 1; }
+        80% { opacity: 0; }
+        100% { opacity: 0; }
+      }
+      .spark { fill: #ffeb3b; animation: spark 3s ease infinite; }
+
+      /* Twinkling stars */
+      @keyframes twinkle {
+        0%, 100% { opacity: 0.2; }
+        50% { opacity: 0.8; }
+      }
+      .star1 { animation: twinkle 2s ease-in-out infinite; }
+      .star2 { animation: twinkle 3s ease-in-out infinite 0.5s; }
+      .star3 { animation: twinkle 2.5s ease-in-out infinite 1s; }
+      .star4 { animation: twinkle 1.8s ease-in-out infinite 1.5s; }
+
+      /* Text glow */
+      @keyframes textGlow {
+        0%, 100% { opacity: 0.7; }
+        50% { opacity: 1; }
+      }
+      .title-text {
+        font-family: 'Courier New', monospace;
+        font-size: 10px;
+        font-weight: bold;
+        fill: #00e5ff;
+        animation: textGlow 2s ease-in-out infinite;
+      }
+
+      /* XP orb floating */
+      @keyframes xpFloat {
+        0%, 88% { opacity: 0; }
+        92% { opacity: 1; transform: translate(0, 0); }
+        100% { opacity: 0; transform: translate(-40px, -20px); }
+      }
+      .xp-orb { fill: #76ff03; animation: xpFloat 3s ease infinite; }
+      .xp-orb2 { fill: #76ff03; animation: xpFloat 3s ease 0.15s infinite; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="bg" x="0" y="0" width="400" height="200"/>
+
+  <!-- Stars -->
+  <rect class="star star1" x="30" y="20" width="2" height="2" rx="1"/>
+  <rect class="star star2" x="80" y="35" width="2" height="2" rx="1"/>
+  <rect class="star star3" x="180" y="15" width="2" height="2" rx="1"/>
+  <rect class="star star4" x="320" y="25" width="2" height="2" rx="1"/>
+  <rect class="star star2" x="350" y="45" width="2" height="2" rx="1"/>
+  <rect class="star star1" x="250" y="30" width="2" height="2" rx="1"/>
+  <rect class="star star3" x="55" y="55" width="1.5" height="1.5" rx="1"/>
+  <rect class="star star4" x="380" y="15" width="1.5" height="1.5" rx="1"/>
+
+  <!-- Ground -->
+  <rect class="grass-top" x="0" y="165" width="400" height="4"/>
+  <rect class="ground" x="0" y="169" width="400" height="31"/>
+  <!-- Ground details -->
+  <rect fill="#352316" x="10" y="175" width="6" height="4" rx="1"/>
+  <rect fill="#352316" x="50" y="180" width="4" height="3" rx="1"/>
+  <rect fill="#352316" x="100" y="176" width="5" height="5" rx="1"/>
+  <rect fill="#352316" x="200" y="182" width="6" height="3" rx="1"/>
+  <rect fill="#352316" x="300" y="178" width="4" height="4" rx="1"/>
+  <rect fill="#352316" x="360" y="175" width="5" height="3" rx="1"/>
+
+  <!-- === CHARACTER (frachlitz skin) === -->
+  <g class="character">
+
+    <!-- Legs -->
+    <!-- Left leg -->
+    <rect class="pants" x="122" y="148" width="10" height="16"/>
+    <rect class="cyan-accent" x="122" y="157" width="2" height="7"/>
+    <!-- Right leg -->
+    <rect class="pants" x="134" y="148" width="10" height="16"/>
+    <rect class="cyan-accent" x="142" y="157" width="2" height="7"/>
+    <!-- Shoes -->
+    <rect fill="#222" x="120" y="161" width="12" height="4"/>
+    <rect fill="#222" x="132" y="161" width="12" height="4"/>
+
+    <!-- Body / Torso -->
+    <rect class="jacket" x="118" y="116" width="30" height="34"/>
+    <!-- White shirt underneath -->
+    <rect class="shirt" x="128" y="118" width="10" height="20"/>
+    <!-- Jacket lapels -->
+    <rect class="jacket" x="126" y="118" width="3" height="16"/>
+    <rect class="jacket" x="137" y="118" width="3" height="16"/>
+    <!-- Cyan accents on jacket -->
+    <rect class="cyan-accent" x="118" y="116" width="30" height="2"/>
+    <rect class="cyan-accent" x="118" y="130" width="2" height="6"/>
+    <rect class="cyan-accent" x="146" y="130" width="2" height="6"/>
+
+    <!-- Left arm (static) -->
+    <rect class="jacket" x="106" y="116" width="12" height="26"/>
+    <rect class="cyan-accent" x="106" y="116" width="12" height="2"/>
+    <rect class="cyan-accent" x="106" y="134" width="2" height="6"/>
+    <rect class="skin" x="108" y="140" width="8" height="5"/>
+
+    <!-- Head -->
+    <g>
+      <!-- Head base -->
+      <rect class="skin" x="118" y="84" width="28" height="28"/>
+      <!-- Hair -->
+      <rect class="hair" x="116" y="82" width="32" height="10"/>
+      <rect class="hair" x="116" y="82" width="4" height="16"/>
+      <rect class="hair" x="144" y="82" width="4" height="16"/>
+      <!-- Hair fringe -->
+      <rect class="hair" x="120" y="90" width="6" height="4"/>
+      <!-- Eyes -->
+      <rect class="eye" x="124" y="96" width="5" height="4"/>
+      <rect class="eye" x="134" y="96" width="5" height="4"/>
+      <!-- Pupils -->
+      <rect fill="#006064" x="126" y="97" width="2" height="2"/>
+      <rect fill="#006064" x="136" y="97" width="2" height="2"/>
+      <!-- Mouth -->
+      <rect fill="#a0785a" x="129" y="104" width="6" height="2"/>
+      <!-- Headphones -->
+      <rect class="headphone" x="114" y="90" width="5" height="12" rx="1"/>
+      <rect class="headphone" x="145" y="90" width="5" height="12" rx="1"/>
+      <rect class="headphone-logo" x="115" y="94" width="3" height="3"/>
+      <rect class="headphone-logo" x="146" y="94" width="3" height="3"/>
+      <!-- Headphone band -->
+      <rect class="headphone" x="116" y="82" width="32" height="3" rx="1"/>
+    </g>
+
+    <!-- Right arm (mining arm) with pickaxe -->
+    <g class="arm-group">
+      <!-- Arm -->
+      <rect class="jacket" x="148" y="116" width="12" height="26"/>
+      <rect class="cyan-accent" x="148" y="116" width="12" height="2"/>
+      <rect class="cyan-accent" x="158" y="134" width="2" height="6"/>
+      <!-- Hand -->
+      <rect class="skin" x="150" y="140" width="8" height="5"/>
+
+      <!-- Pickaxe -->
+      <!-- Handle -->
+      <rect class="pick-handle" x="153" y="120" width="3" height="35" transform="rotate(-35, 153, 140)"/>
+      <!-- Pick head -->
+      <polygon class="pick-head" points="170,100 185,95 188,98 175,108 170,110"/>
+    </g>
+  </g>
+
+  <!-- === BLOCK (Grass/Dirt) === -->
+  <g class="block-group">
+    <!-- Block shadow -->
+    <rect fill="#0a0a15" x="258" y="162" width="36" height="4" rx="1" opacity="0.3"/>
+
+    <!-- Main block -->
+    <rect class="block-dirt" x="255" y="128" width="36" height="36"/>
+    <!-- Grass top -->
+    <rect class="block-grass" x="255" y="128" width="36" height="8"/>
+    <!-- Dirt details -->
+    <rect class="block-dark" x="260" y="140" width="4" height="4"/>
+    <rect class="block-dark" x="272" y="148" width="5" height="3"/>
+    <rect class="block-dark" x="280" y="138" width="3" height="5"/>
+    <rect class="block-dark" x="265" y="155" width="4" height="3"/>
+    <!-- Stone specks -->
+    <rect fill="#999" x="258" y="152" width="3" height="3"/>
+    <rect fill="#999" x="283" y="145" width="3" height="2"/>
+    <!-- Block outline -->
+    <rect fill="none" stroke="#2a1f0e" stroke-width="1" x="255" y="128" width="36" height="36"/>
+    <!-- Grid lines for Minecraft look -->
+    <line stroke="#2a1f0e" stroke-width="0.5" x1="264" y1="128" x2="264" y2="164" opacity="0.3"/>
+    <line stroke="#2a1f0e" stroke-width="0.5" x1="273" y1="128" x2="273" y2="164" opacity="0.3"/>
+    <line stroke="#2a1f0e" stroke-width="0.5" x1="282" y1="128" x2="282" y2="164" opacity="0.3"/>
+    <line stroke="#2a1f0e" stroke-width="0.5" x1="255" y1="137" x2="291" y2="137" opacity="0.3"/>
+    <line stroke="#2a1f0e" stroke-width="0.5" x1="255" y1="146" x2="291" y2="146" opacity="0.3"/>
+    <line stroke="#2a1f0e" stroke-width="0.5" x1="255" y1="155" x2="291" y2="155" opacity="0.3"/>
+
+    <!-- Cracks -->
+    <path class="crack crack1" d="M265,140 L270,145 L268,150"/>
+    <path class="crack crack2" d="M278,135 L275,142 L280,148 L276,155"/>
+    <path class="crack crack3" d="M260,135 L265,138 M275,150 L282,155 L285,160"/>
+  </g>
+
+  <!-- Hit spark effect -->
+  <g>
+    <rect class="spark" x="250" y="130" width="4" height="4" rx="1"/>
+    <rect class="spark" x="248" y="136" width="3" height="3" rx="1"/>
+    <rect class="spark" x="253" y="125" width="2" height="2" rx="1"/>
+  </g>
+
+  <!-- Break particles -->
+  <rect class="particle p1 p-dirt" x="270" y="145" width="5" height="5"/>
+  <rect class="particle p2 p-grass" x="275" y="140" width="4" height="4"/>
+  <rect class="particle p3 p-dirt" x="265" y="150" width="4" height="4"/>
+  <rect class="particle p4 p-grass" x="280" y="135" width="3" height="3"/>
+  <rect class="particle p5 p-dirt" x="268" y="155" width="4" height="4"/>
+  <rect class="particle p6 p-dirt" x="278" y="148" width="5" height="5"/>
+
+  <!-- XP Orbs that fly toward player on break -->
+  <circle class="xp-orb" cx="273" cy="145" r="3"/>
+  <circle class="xp-orb2" cx="280" cy="140" r="2.5"/>
+
+  <!-- Title text -->
+  <text class="title-text" x="310" y="185" text-anchor="middle">&#x26cf; frachlitz</text>
+
+  <!-- Decorative bottom border line -->
+  <rect fill="#00e5ff" x="0" y="198" width="400" height="2" opacity="0.3"/>
+</svg>

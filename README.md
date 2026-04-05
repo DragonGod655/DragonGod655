@@ -148,9 +148,13 @@
 >
 > Minecraft username: **frachlitz**
 
-<img src="https://raw.githubusercontent.com/DragonGod655/DragonGod655/main/images/minecraft-fullbody.png" width="250" alt="Minecraft Full Body"/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://raw.githubusercontent.com/DragonGod655/DragonGod655/main/images/minecraft-head.png" width="180" alt="Minecraft Head"/>
+<img src="https://raw.githubusercontent.com/DragonGod655/DragonGod655/main/images/minecraft-mining.svg" width="500" alt="Minecraft Mining Animation"/>
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/DragonGod655/DragonGod655/main/images/minecraft-fullbody.png" width="120" alt="Minecraft Full Body"/>
+&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/DragonGod655/DragonGod655/main/images/minecraft-head.png" width="100" alt="Minecraft Head"/>
 
 *🎮 Rendered using [NMSR](https://nmsr.nickac.dev/)*
 
