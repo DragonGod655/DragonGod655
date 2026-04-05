@@ -13,6 +13,7 @@ jobs:
         with:
           filename: metrics.svg
           base: header, activity, community, repositories, metadata
+          user: DragonGod655
           token: ${{ secrets.PROFILE_KEY }}
           optimize: svg
           experimental_features: --optimize-svg
