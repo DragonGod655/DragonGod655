@@ -27,30 +27,27 @@
 
 ## 🧑‍💻 About Me
 
-```python
-class DragonGod655:
-    def __init__(self):
-        self.name        = "Duc Huy"
-        self.username    = "DragonGod655"
-        self.location    = "Viet Nam 🇻🇳"
-        self.email       = "duchuynguyentran807@gmail.com"
-        self.strongest   = ["HTML 💪", "CSS 🎨"]
-        self.learning    = "Python 🐍  # because I genuinely love it!"
-        self.hobbies     = [
-            "📖 Reading Novels",
-            "🦸 Reading Comics & Manhua",
-            "🎨 Admiring 3D Characters"
-        ]
-        self.fav_music   = "🎵 Alone — Alan Walker (on repeat 24/7)"
-        self.fun_fact    = "I love 3D characters SO much — DragonGod is proof 🐉"
-        self.open_to     = "Collaborations & new friendships!"
+<div align="center">
 
-    def say_hi(self):
-        print("Thanks for visiting! Let's create something epic together 🚀")
+👋 Xin chào! Mình là **Đức Huy** (aka **DragonGod655**), đến từ **Việt Nam** 🇻🇳
 
-me = DragonGod655()
-me.say_hi()
-```
+🎓 Mình là sinh viên đam mê công nghệ và sáng tạo
+
+💪 Thế mạnh: **HTML** & **CSS** — xây dựng giao diện web đẹp mắt
+
+🐍 Đang học: **Python** — vì mình thực sự yêu thích nó!
+
+📖 Sở thích: Đọc tiểu thuyết, manga & manhua, ngắm nhân vật 3D
+
+🎵 Nhạc yêu thích: **Alone** — Alan Walker (nghe 24/7 không chán)
+
+🐉 Fun fact: Mình yêu nhân vật 3D đến mức lấy tên **DragonGod** luôn 😏
+
+📫 Liên hệ: **duchuynguyentran807@gmail.com**
+
+🤝 Luôn sẵn sàng hợp tác và kết bạn mới!
+
+</div>
 
 ---
 
