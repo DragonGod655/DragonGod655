@@ -61,3 +61,12 @@ jobs:
 
           # Layout order (matching the example screenshot)
           config_order: base.header, base.repositories, isocalendar, habits, languages, stars, base.activity, base.community, base.metadata
+
+          # Ocean blue theme
+          extras_css: |
+            * { color: #e0f0ff !important; }
+            h1, h2, h3 { color: #ffffff !important; }
+            svg { background-color: #0a1929; }
+            .field { border-color: #1e3a5f !important; }
+            section { border-color: #1e3a5f !important; }
+            .row { border-color: #1e3a5f !important; }
