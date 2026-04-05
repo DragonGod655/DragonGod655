@@ -1,88 +1,156 @@
-# Hi there, I'm Kieu Tan Tai <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"/>
+<div align="center">
 
-> A passionate developer who loves building meaningful products and exploring new technologies.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Duc%20Huy&fontSize=65&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Welcome%20to%20my%20GitHub%20Profile!&descAlignY=55&descSize=18" width="100%"/>
 
-<div style="display:flex;align-items:center; justify: center;gap:8px">
-  <a href="https://kieutantai.github.io"><img src="https://img.shields.io/badge/Portfolio-kieutantai.github.io-4FC08D?style=flat&logo=vuedotjs&logoColor=white" alt="Portfolio"/></a>
-  <div>— Built with Vue.js</div>
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Hey+there!+I'm+Duc+Huy+%F0%9F%91%8B;Also+known+as+DragonGod655+%F0%9F%90%89;HTML+is+my+strongest+weapon+%E2%9A%94%EF%B8%8F;Learning+Python+%F0%9F%90%8D+because+I+love+it!;Novels+%26+Manhua+reader+%F0%9F%93%96;Looping+Alone+by+Alan+Walker+%F0%9F%8E%B5;3D+characters+are+life+%F0%9F%8E%A8" alt="Typing SVG" />
+</a>
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=DragonGod655&style=for-the-badge&color=0e75b6&label=PROFILE+VIEWS" alt="profile views"/>
+<img src="https://img.shields.io/github/followers/DragonGod655?style=for-the-badge&color=0e75b6&label=FOLLOWERS" alt="followers"/>
+
 </div>
 
 ---
 
-## <img src="https://cdn.simpleicons.org/github/181717" width="32"/> GitHub Overview
+## 🧑‍💻 About Me
 
-> A snapshot of my overall GitHub activity — languages, contributions, and more.
+```python
+class DragonGod655:
+    def __init__(self):
+        self.name        = "Duc Huy"
+        self.username    = "DragonGod655"
+        self.location    = "Viet Nam 🇻🇳"
+        self.email       = "duchuynguyentran807@gmail.com"
+        self.strongest   = ["HTML 💪", "CSS 🎨"]
+        self.learning    = "Python 🐍  # because I genuinely love it!"
+        self.hobbies     = [
+            "📖 Reading Novels",
+            "🦸 Reading Comics & Manhua",
+            "🎨 Admiring 3D Characters"
+        ]
+        self.fav_music   = "🎵 Alone — Alan Walker (on repeat 24/7)"
+        self.fun_fact    = "I love 3D characters SO much — DragonGod is proof 🐉"
+        self.open_to     = "Collaborations & new friendships!"
 
-![Metrics](/metrics.svg)
+    def say_hi(self):
+        print("Thanks for visiting! Let's create something epic together 🚀")
 
----
-
-## <img src="https://cdn.simpleicons.org/githubactions/2DA44E" width="32"/> My Contribution Journey
-> Every green square tells a story — consistency, curiosity, and a love for code.
-> Here's a full view of my GitHub activity over the years.
-
-![Full Contribution Calendar](/metrics.plugin.calendar.full.svg)
-
----
-
-## <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4f8.svg" width="32"/> Portfolio Preview
-
-> A live snapshot of my portfolio website.
-
-![Screenshot](/metrics.plugin.screenshot.svg)
-
----
-
-## <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4bb.svg" width="32"/> Featured Project — FoodAndDrink
-
-> A curated app for food lovers — discover recipes, explore drinks, and share your favorite flavors.
-> Built with passion for great UI and smooth user experience.
-
-![Contributions - FoodAndDrink](/metrics.plugin.contributors.contributions.svg)
+me = DragonGod655()
+me.say_hi()
+```
 
 ---
 
-## <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9d1-200d-1f4bb.svg" width="32"/> About Me
+## 🛠️ Tech Stack & Skills
 
-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="16"/> Strongest in **C# backend** — building APIs and services with **ASP.NET**
-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="16"/> Also know a bit of the frontend side: **TypeScript**, **React**, **Next.js**
-- <img src="https://cdn.simpleicons.org/github/2DA44E" width="16"/> Currently working on exciting web projects
-- <img src="https://cdn.simpleicons.org/bookstack/FF6B6B" width="16"/> Hobby: reading **manga** & **light novels** — always chasing a good story
-- <img src="https://cdn.simpleicons.org/spotify/1DB954" width="16"/> Favorite music: *"[Never Stop](https://youtu.be/dH7DQfDAR4A?list=RDdH7DQfDAR4A)"* by **Sawano Hiroyuki[nZk]** — pure energy
-- <img src="https://cdn.simpleicons.org/buymeacoffee/6F4E37" width="16"/> Fun fact: I debug best with a cup of Vietnamese coffee
+<div align="center">
 
----
+### 💪 Strongest
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-## <img src="https://cdn.simpleicons.org/youtubemusic/FF0000" width="32"/> Now Playing
+### 🌱 Currently Learning
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-> Music that keeps me in the zone — anime OSTs, game soundtracks, and beyond.
+### 🔧 Also Know
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
-![Music](/metrics.plugin.music.svg)
-
----
-
-## <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4ab.svg" width="32"/> Fortune
-
-> A little fortune to brighten your day!
-
-![Fortune](/metrics.plugin.fortune.svg)
+</div>
 
 ---
 
-## <img src="https://cdn.simpleicons.org/anilist/02A9FF" width="32"/> Manga Reading List
+## 📊 GitHub Stats
 
-> My current and favorite manga picks — always chasing a good story!
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=DragonGod655&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=FFFFFF&count_private=true" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DragonGod655&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=FFFFFF&langs_count=8" height="170"/>
+</div>
 
-![Anilist Manga](/metrics.plugin.anilist.manga.svg)
+<div align="center">
+  <img src="https://streak-stats.demolab.com/?user=DragonGod655&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6E00&currStreakLabel=FFFFFF&sideLabels=FFFFFF&dates=888888" width="70%"/>
+</div>
 
 ---
 
-<p align="center">
-  <i>Thanks for visiting my profile! Have a great day <img src="https://img.shields.io/badge/-%E2%9C%A8-yellow?style=flat" /></i>
-</p>
+## 🎮 Hobbies & Interests
+
+<div align="center">
+
+| 📖 Reading Novels | 🦸 Reading Manhua | 🎨 3D Characters |
+|:-----------------:|:-----------------:|:----------------:|
+| Lost in fantasy worlds | Manhua obsessed! | Admire 3D art daily |
+
+</div>
 
 ---
 
-## <img src="https://cdn.simpleicons.org/opensourceinitiative/FF4500" width="32"/> Credits
+## 📚 My Favourite Manhua
 
-Portfolio built using [Vuefolio](https://github.com/ralodev/vuefolio) — a beautiful Vue.js portfolio template by [ralodev](https://github.com/ralodev). Big thanks for the amazing work! <img src="https://img.shields.io/badge/-%E2%99%A5-red?style=flat" />
+<div align="center">
+
+> 🐉 **Douluo Dalu** (斗罗大陆) — *Tang Jia San Shao*
+>
+> *Epic cultivation, powerful characters, and stunning artwork — this is THE manhua.*
+
+<img src="https://raw.githubusercontent.com/DragonGod655/DragonGod655/main/images/manhua-cover.jpg" width="250" style="border-radius: 12px;"/>
+
+</div>
+
+---
+
+## 🎵 Currently Vibing To
+
+<div align="center">
+
+> 🎧 **"Alone"** — *Alan Walker*
+>
+> *"I'm so alone, nothing feels like home..."* — this hits different at 2AM 🌙
+
+[![Spotify](https://img.shields.io/badge/Listen%20on%20Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/track/3LlmKSHR3Rs0Y3KHQLAYDk)
+
+</div>
+
+---
+
+## ⚡ Fun Fact
+
+<div align="center">
+
+> 🐉 **I love 3D characters SO much.**
+> Whether in games, anime, or art — if it's in 3D, I'm instantly obsessed. That's why the name **DragonGod** exists. 😏
+
+</div>
+
+---
+
+## 🐍 Contribution Snake
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DragonGod655/DragonGod655/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DragonGod655/DragonGod655/output/github-contribution-grid-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/DragonGod655/DragonGod655/output/github-contribution-grid-snake.svg" />
+</picture>
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%"/>
+
+*⭐ If you like my work, don't forget to star my repos! Thanks for stopping by!* 🙌
+
+</div>
