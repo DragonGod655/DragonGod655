@@ -140,6 +140,26 @@
 
 ---
 
+## 🎮 Minecraft Character
+
+<div align="center">
+
+> ⛏️ **My Minecraft Avatar** — *Auto-updated by GitHub Actions!*
+
+<img src="https://raw.githubusercontent.com/DragonGod655/DragonGod655/main/images/minecraft-fullbody.png" width="200" alt="Minecraft Full Body"/>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/DragonGod655/DragonGod655/main/images/minecraft-head.png" width="150" alt="Minecraft Head"/>
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/DragonGod655/DragonGod655/main/images/minecraft-face.svg" width="80" alt="Minecraft Face SVG"/>
+
+*🎮 Rendered using [NMSR](https://nmsr.nickac.dev/) & [MC2SVG](https://github.com/0KepOnline/MC2SVG)*
+
+</div>
+
+---
+
 ## 🐍 Contribution Journey
 
 <div align="center">

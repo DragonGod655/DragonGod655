@@ -1,0 +1,45 @@
+name: Update Minecraft Character
+
+on:
+  schedule:
+    - cron: "0 0 * * 0"  # Runs weekly on Sunday at midnight UTC
+  workflow_dispatch:       # Allow manual trigger
+
+jobs:
+  update-skin:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create output directory
+        run: mkdir -p images
+
+      - name: Download Minecraft 3D Full Body Render
+        run: |
+          # Using NMSR (NickAc's Minecraft Skin Renderer) for 3D isometric full body render
+          # Minecraft username: frachlitz
+          
+          # Full body isometric render
+          curl -L -o images/minecraft-fullbody.png \
+            "https://nmsr.nickac.dev/fullbody/frachlitz?width=300"
+          
+          # Head isometric render  
+          curl -L -o images/minecraft-head.png \
+            "https://nmsr.nickac.dev/headiso/frachlitz?width=300"
+
+      - name: Download Minecraft Face SVG
+        run: |
+          # Using MC2SVG for pixel-perfect SVG face
+          curl -L -o images/minecraft-face.svg \
+            "https://scenariopla.net/mc2svg/get?nickname=frachlitz&size=256&hat=true"
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add images/minecraft-fullbody.png images/minecraft-head.png images/minecraft-face.svg
+          git commit -m "🎮 Update Minecraft character renders" || echo "No changes to commit"
+          git push
