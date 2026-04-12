@@ -8,8 +8,12 @@
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=DragonGod655&style=for-the-badge&color=0e75b6&label=PROFILE+VIEWS" alt="profile views"/>
-<img src="https://img.shields.io/github/followers/DragonGod655?style=for-the-badge&color=0e75b6&label=FOLLOWERS" alt="followers"/>
+  <img src="https://komarev.com/ghpvc/?username=DragonGod655&style=for-the-badge&color=0e75b6&label=PROFILE+VIEWS" alt="profile views"/>
+  <img src="https://img.shields.io/github/followers/DragonGod655?style=for-the-badge&color=0e75b6&label=FOLLOWERS" alt="followers"/>
+
+  <br/><br/>
+
+  <img src="https://raw.githubusercontent.com/DragonGod655/DragonGod655/main/metrics.plugin.introduction.svg" alt="Introduction Metrics"/>
 
 </div>
 
@@ -18,9 +22,11 @@
 ## 📊 Metrics Overview
 
 <div align="center">
+  <img src="https://raw.githubusercontent.com/DragonGod655/DragonGod655/main/metrics.svg" alt="GitHub Metrics" width="100%"/>
+</div>
 
-<img src="https://raw.githubusercontent.com/DragonGod655/DragonGod655/main/metrics.svg" alt="GitHub Metrics" width="100%"/>
-
+<div align="center">
+  <img src="https://raw.githubusercontent.com/DragonGod655/DragonGod655/main/metrics.plugin.calendar.full.svg" alt="3D Calendar" width="100%"/>
 </div>
 
 ---
@@ -76,15 +82,15 @@
 
 ---
 
-## 📊 GitHub Stats
+## 📊 Detailed GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=DragonGod655&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=FFFFFF&count_private=true" height="170"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DragonGod655&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=FFFFFF&langs_count=8" height="170"/>
+  <img src="https://raw.githubusercontent.com/DragonGod655/DragonGod655/main/metrics.plugin.habits.facts.svg" width="48.5%"/>
+  <img src="https://raw.githubusercontent.com/DragonGod655/DragonGod655/main/metrics.plugin.habits.charts.svg" width="48.5%"/>
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=DragonGod655&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6E00&currStreakLabel=FFFFFF&sideLabels=FFFFFF&dates=888888" width="70%"/>
+  <img src="https://raw.githubusercontent.com/DragonGod655/DragonGod655/main/metrics.plugin.activity.svg" width="100%"/>
 </div>
 
 ---
@@ -106,10 +112,12 @@
 <div align="center">
 
 > 🐉 **Douluo Dalu** (斗罗大陆) — *Tang Jia San Shao*
->
-> *Epic cultivation, powerful characters, and stunning artwork — this is THE manhua.*
 
 <img src="https://raw.githubusercontent.com/DragonGod655/DragonGod655/main/images/manhua-cover.jpg" width="250" style="border-radius: 12px;"/>
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/DragonGod655/DragonGod655/main/metrics.plugin.anilist.manga.svg" width="100%" alt="AniList Manga Progress"/>
 
 </div>
 
@@ -123,7 +131,7 @@
 >
 > *"I'm so alone, nothing feels like home..."* — this hits different at 2AM 🌙
 
-[![Spotify](https://img.shields.io/badge/Listen%20on%20Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/track/3LlmKSHR3Rs0Y3KHQLAYDk)
+<img src="https://raw.githubusercontent.com/DragonGod655/DragonGod655/main/metrics.plugin.music.svg" width="100%" alt="Now Playing on YouTube Music"/>
 
 </div>
 
@@ -179,6 +187,10 @@
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%"/>
+
+<img src="https://raw.githubusercontent.com/DragonGod655/DragonGod655/main/metrics.plugin.fortune.svg" alt="Daily Fortune" width="100%"/>
+
+<br/>
 
 *⭐ If you like my work, don't forget to star my repos! Thanks for stopping by!* 🙌
 
