@@ -85,6 +85,10 @@
 ## 📊 Detailed GitHub Stats
 
 <div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=DragonGod655&theme=tokyonight&hide_border=true&background=0a1929&stroke=58A6FF&ring=58A6FF&fire=FF6E00&currStreakLabel=e0f0ff&sideLabels=e0f0ff&dates=888888" width="100%"/>
+</div>
+
+<div align="center">
   <img src="https://raw.githubusercontent.com/DragonGod655/DragonGod655/main/metrics.plugin.habits.facts.svg" width="48.5%"/>
   <img src="https://raw.githubusercontent.com/DragonGod655/DragonGod655/main/metrics.plugin.habits.charts.svg" width="48.5%"/>
 </div>
@@ -130,6 +134,10 @@
 > *"I'm so alone, nothing feels like home..."* — this hits different at 2AM 🌙
 
 <img src="https://raw.githubusercontent.com/DragonGod655/DragonGod655/main/metrics.plugin.music.svg" width="100%" alt="Now Playing on YouTube Music"/>
+
+<br/>
+
+[![Spotify](https://img.shields.io/badge/Listen%20on%20Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/track/3LlmKSHR3Rs0Y3KHQLAYDk)
 
 </div>
 
