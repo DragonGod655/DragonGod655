@@ -112,12 +112,10 @@
 <div align="center">
 
 > 🐉 **Douluo Dalu** (斗罗大陆) — *Tang Jia San Shao*
+>
+> *Epic cultivation, powerful characters, and stunning artwork — this is THE manhua.*
 
 <img src="https://raw.githubusercontent.com/DragonGod655/DragonGod655/main/images/manhua-cover.jpg" width="250" style="border-radius: 12px;"/>
-
-<br/>
-
-<img src="https://raw.githubusercontent.com/DragonGod655/DragonGod655/main/metrics.plugin.anilist.manga.svg" width="100%" alt="AniList Manga Progress"/>
 
 </div>
 
