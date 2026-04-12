@@ -85,7 +85,7 @@
 ## 📊 Detailed GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=DragonGod655&theme=tokyonight&hide_border=true&background=0a1929&stroke=58A6FF&ring=58A6FF&fire=FF6E00&currStreakLabel=e0f0ff&sideLabels=e0f0ff&dates=888888" width="100%"/>
+    <img src="https://streak-stats.demolab.com/?user=DragonGod655&theme=tokyonight&hide_border=true&background=0d1117&stroke=58A6FF&ring=58A6FF&fire=FF6E00&currStreakLabel=e0f0ff&sideLabels=e0f0ff&dates=888888" width="100%"/>
 </div>
 
 <div align="center">

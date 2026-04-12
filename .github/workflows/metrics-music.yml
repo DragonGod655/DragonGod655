@@ -29,4 +29,13 @@ jobs:
           plugin_music: yes
           plugin_music_playlist: >-
             https://music.youtube.com/playlist?list=PLdcv4LvyAC23aWRzCOH4lrCxblGpRCzlF
+
+          # Midnight Black Theme
+          extras_css: |
+            * { color: #c9d1d9 !important; }
+            h1, h2, h3 { color: #58a6ff !important; }
+            svg { background-color: #0d1117 !important; }
+            .field { border-color: #30363d !important; }
+            section { border-color: #30363d !important; }
+            .row { border-color: #30363d !important; }
           
