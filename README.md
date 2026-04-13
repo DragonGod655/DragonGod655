@@ -160,7 +160,7 @@
 
 > ⛏️ **My Minecraft Avatar** — *Auto-updated by GitHub Actions!*
 >
-> Minecraft username: **frachlitz**
+> Minecraft username: **DragonNoLive**
 
 <img src="https://raw.githubusercontent.com/DragonGod655/DragonGod655/main/images/minecraft-mining.svg?v=2" width="500" alt="Minecraft Mining Animation"/>
 
