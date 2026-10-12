@@ -1,20 +1,20 @@
-﻿<div align="center">
+<div align="center">
 
 <img src="./images/paladi-client-banner.png" alt="Paladi Client Banner" width="100%" style="border-radius: 10px; max-width: 900px;" />
 
 <br/><br/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Gia+Uy+%F0%9F%91%8B;IT+Engineer+%C2%B7+Minecraft+Developer;BUILD+%C2%B7+OPTIMIZE+%C2%B7+AUTOMATE;Developer+%40+MeowSMP.net+%F0%9F%90%BE;Creator+of+Paladi+Client+%E2%9A%94%EF%B8%8F" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Duc+Huy+(DragonGod655)+%F0%9F%91%8B;IT+Engineer+%C2%B7+Minecraft+Developer;BUILD+%C2%B7+OPTIMIZE+%C2%B7+AUTOMATE;Creator+of+Paladi+Client+%E2%9A%94%EF%B8%8F" alt="Typing SVG" />
 </a>
 
 <p align="center">
-  <b>IT Engineer · Minecraft Server Developer · Web & Automation</b><br/>
+  <b>IT Engineer · Minecraft Developer · Web & Automation</b><br/>
   <code>BUILD</code> · <code>OPTIMIZE</code> · <code>AUTOMATE</code>
 </p>
 
 <p align="center">
-  <i>I build and operate practical systems — from Minecraft server features and web administration to internal workflow automation.</i>
+  <i>I build and operate practical systems — from Minecraft client automation and web tools to workflow optimizations.</i>
 </p>
 
 <p align="center">
@@ -26,28 +26,19 @@
 
 ---
 
-## 🟩 Featured Experience
+## ⚔️ Featured Project
 
-### 🐾 **[MeowSMP.net](https://meowsmp.net/)** — *Minecraft Server Developer* `(2024 - Present)`
-> **[MeowSMP.net](https://meowsmp.net/)** is a Vietnamese Minecraft Slimefun server where technology, automation, and community gameplay come together.
-* ⚡ **Slimefun Plugins & Addons:** Develop, customize, and optimize Slimefun mechanics and addons.
-* 🔧 **Custom Feature Engineering:** Modify and adapt existing plugins for server-specific features and operational requirements.
-* 🛡️ **Troubleshooting & Performance:** Diagnose and resolve plugin compatibility, performance bottlenecks, and gameplay-system issues.
-* 🌐 **Technical Operations:** Support the end-to-end technical operation of the Minecraft server infrastructure and its web presence.
-
----
-
-### ⚔️ **[Paladi Client](https://github.com/DragonGod655/paladiclient)** — *Lead Developer & Creator*
+### 🛡️ **[Paladi Client](https://github.com/DragonGod655/paladiclient)** — *Lead Developer & Creator*
 > High-performance utility client for Minecraft (Fabric 1.21+), engineered for automation, smart pathfinding, and seamless anti-cheat bypass mechanics.
-* 🚀 **Custom Combat & Utility Modules:** AutoTotem, AutoMine, SpawnerProtect, SusChunkFinder, and Freecam.
+* 🚀 **Custom Combat & Utility Modules:** AutoTotem, AutoMine, SpawnerProtect, SusChunkFinder, Freecam, AutoDoubleHand, and FastUse.
 * 🗺️ **Integrated Pathing & Automation:** Deep integration with Baritone pathfinding, Litematica schematics, and auto-sorting workflows.
-* 🖥️ **Control Hub & Web UI:** Built-in dashboard and automation control tools.
+* 🖥️ **Control Hub & Web UI:** Built-in desktop & web dashboard for automation and order control.
 
 ---
 
 ## 🛠️ What I Work On
 
-* 🎮 **Minecraft Development:** Java plugin customization, Slimefun addons, Fabric client mods, and server optimization.
+* 🎮 **Minecraft Development:** Fabric client mods, Java plugin customization, and client/server performance optimization.
 * 🌐 **Web Administration:** Website deployment, configuration, and day-to-day operation.
 * 🖥️ **Server Administration:** Service configuration, monitoring, maintenance, and incident troubleshooting.
 * ⚙️ **Workflow Automation:** Internal tools that eliminate repetitive work and improve operational accuracy.
@@ -109,5 +100,5 @@
 ---
 
 <div align="center">
-  <sub>⭐️ <i>Thanks for stopping by! Feel free to explore my repositories and connect with me.</i></sub>
+  <sub>⭐ <i>Thanks for stopping by! Feel free to explore my repositories and connect with me.</i></sub>
 </div>
